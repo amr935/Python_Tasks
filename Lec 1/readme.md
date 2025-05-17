@@ -1,124 +1,82 @@
+# Basic Python Programs
 
-# Task 1: Basic Mathematical Operations
-
-# Taking input from the user
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-# Performing operations
-addition = num1 + num2
-subtraction = num1 - num2
-multiplication = num1 * num2
-
-# Handling division by zero
-if num2 != 0:
-    division = num1 / num2
-else:
-    division = "Undefined (division by zero)"
-
-# Displaying results
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
-
-# Task 2: Personalized Greeting
-
-# Taking input from the user
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-
-# Concatenating names
-full_name = first_name + " " + last_name
-
-# Printing personalized greeting
-print("Hello, " + full_name + "! Welcome to the python program.")
-📝 README.md (Full Content)
-markdown
-Copy
-Edit
-# Python Tasks Repository
-
-This repository contains two beginner-level Python scripts for practicing basic programming concepts such as user input, arithmetic operations, and string manipulation.
+This repository contains two beginner-level Python programs written in **Python 3**. These tasks are designed to build a strong foundation in basic programming concepts such as input/output, arithmetic operations, and string handling.
 
 ---
 
-## ✅ Task 1: Basic Mathematical Operations
+## 🧮 Task 1: Perform Basic Mathematical Operations
 
-**📄 File**: `Assign_1_a.py`
+### Description
+This program performs basic arithmetic operations between two numbers entered by the user.
 
-### 🔹 Problem Statement:
-Write a Python program that:
-1. Takes two numbers as input from the user.
-2. Performs the following mathematical operations:
-   - Addition
-   - Subtraction
-   - Multiplication
-   - Division
-3. Displays the results of each operation on the screen.
+### Features
+- Takes two numbers as input from the user.
+- Performs:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Displays the result of each operation.
 
-### 🔹 Expected Output:
-Enter first number: 10 \n
-Enter second number: 5 \n
-Addition: 15 \n
-Subtraction: 5 \n
-Multiplication: 50 \n
-Division: 2.0 \n
+### Example Output
+```
+Enter first number: 10
+Enter second number: 5
 
-yaml
-Copy
-Edit
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2.0
+```
 
 ---
 
-## ✅ Task 2: Personalized Greeting
+## 🙋‍♂️ Task 2: Create a Personalized Greeting
 
-**📄 File**: `Assign_1_b.py`
+### Description
+This program generates a personalized greeting using the user's first and last names.
 
-### 🔹 Problem Statement:
-Write a Python program that:
-1. Takes the user's first name and last name as input.
-2. Concatenates them into a full name.
-3. Prints a personalized greeting message using the full name.
+### Features
+- Takes first name and last name as input.
+- Concatenates them into a full name.
+- Displays a greeting message using the full name.
 
-### 🔹 Expected Output:
-Enter your first name: John\n
-Enter your last name: Doe\n
+### Example Output
+```
+Enter your first name: John
+Enter your last name: Doe
+
 Hello, John Doe! Welcome to the python program.
-
-yaml
-Copy
-Edit
+```
 
 ---
 
-## 📁 Repository Structure
-python-tasks/
+## 🛠️ Technologies Used
+- Programming Language: **Python 3**
+
+## 📁 Files Included
+```
 ├── Assign_1_a.py
 ├── Assign_1_b.py
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-Use any Python IDE or terminal:
+1. Make sure you have Python installed on your machine.
+2. Clone this repository or download the files.
+3. Open a terminal and navigate to the project folder.
+4. Run the programs using:
+
 ```bash
 python Assign_1_a.py
 python Assign_1_b.py
-vbnet
-Copy
-Edit
+```
 
-Let me know if you'd like me to zip the files or walk you through uploading them to GitHub.
+---
 
-
-
-
-
-
+## 📬 Contact
+Feel free to open an issue or contribute if you have any suggestions or improvements!
 

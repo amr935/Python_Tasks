@@ -1,8 +1,4 @@
-✅ Task 1: Basic Mathematical Operations
-math_operations.py
-python
-Copy
-Edit
+
 # Task 1: Basic Mathematical Operations
 
 # Taking input from the user
@@ -25,11 +21,7 @@ print("Addition:", addition)
 print("Subtraction:", subtraction)
 print("Multiplication:", multiplication)
 print("Division:", division)
-✅ Task 2: Personalized Greeting
-personalized_greeting.py
-python
-Copy
-Edit
+
 # Task 2: Personalized Greeting
 
 # Taking input from the user
@@ -102,8 +94,8 @@ Edit
 
 ## 📁 Repository Structure
 python-tasks/
-├── math_operations.py
-├── personalized_greeting.py
+├── Assign_1_a.py
+├── Assign_1_b.py
 └── README.md
 
 yaml
@@ -116,8 +108,8 @@ Edit
 
 Use any Python IDE or terminal:
 ```bash
-python math_operations.py
-python personalized_greeting.py
+python Assign_1_a.py
+python Assign_1_b.py
 vbnet
 Copy
 Edit

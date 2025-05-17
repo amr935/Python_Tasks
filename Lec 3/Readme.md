@@ -36,27 +36,26 @@ result = factorial(num)
 print(f"Factorial of {num} is: {result}")
 
 
-📌 Task 2: Using the Math Module for Calculations
-✅ Problem Statement:
+---
+
+## 📌 Task 2: Using the Math Module for Calculations
+
+### ✅ Problem Statement:
 Write a Python program that:
 
-Asks the user for a number.
+1. Asks the user to enter a number.
+2. Uses Python's built-in `math` module to calculate the:
+   - ✅ Square root of the number
+   - ✅ Natural logarithm (log base *e*) of the number
+   - ✅ Sine of the number (in radians)
+3. Displays all the calculated results in a clear format.
 
-Uses the math module to calculate:
-
-✅ Square root of the number
-
-✅ Natural logarithm (log base e)
-
-✅ Sine of the number (in radians)
-
-Displays the calculated results.
-
-🔁 Sample Output:
-Enter a number: 25  
-Square root: 5.0  
-Logarithm: 3.2188758248682006  
+### 🔁 Sample Output:
+Enter a number: 25
+Square root: 5.0
+Logarithm: 3.2188758248682006
 Sine: -0.13235175009777303
+
 💡 Code:
 import math
 

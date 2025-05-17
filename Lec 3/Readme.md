@@ -36,7 +36,6 @@ result = factorial(num)
 print(f"Factorial of {num} is: {result}")
 
 
----
 
 ## 📌 Task 2: Using the Math Module for Calculations
 

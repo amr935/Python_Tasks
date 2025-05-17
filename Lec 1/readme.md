@@ -58,12 +58,12 @@ Write a Python program that:
 3. Displays the results of each operation on the screen.
 
 ### 🔹 Expected Output:
-Enter first number: 10
-Enter second number: 5
-Addition: 15
-Subtraction: 5
-Multiplication: 50
-Division: 2.0
+Enter first number: 10 \n
+Enter second number: 5 \n
+Addition: 15 \n
+Subtraction: 5 \n
+Multiplication: 50 \n
+Division: 2.0 \n
 
 yaml
 Copy
@@ -82,8 +82,8 @@ Write a Python program that:
 3. Prints a personalized greeting message using the full name.
 
 ### 🔹 Expected Output:
-Enter your first name: John
-Enter your last name: Doe
+Enter your first name: John\n
+Enter your last name: Doe\n
 Hello, John Doe! Welcome to the python program.
 
 yaml

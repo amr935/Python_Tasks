@@ -21,21 +21,6 @@ Enter a number: 5
 Factorial of 5 is: 120
 
 
-### 💡 Code:
-
-```python
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
-
-# Taking user input
-num = int(input("Enter a number: "))
-result = factorial(num)
-print(f"Factorial of {num} is: {result}")
-
-
 
 ## 📌 Task 2: Using the Math Module for Calculations
 
@@ -55,16 +40,7 @@ Square root: 5.0
 Logarithm: 3.2188758248682006
 Sine: -0.13235175009777303
 
-💡 Code:
-import math
 
-# Taking user input
-num = float(input("Enter a number: "))
-
-# Performing calculations
-square_root = math.sqrt(num)
-logarithm = math.log(num)
-sine_value = math.sin(num)
 
 # Displaying results
 print(f"Square root: {square_root}")

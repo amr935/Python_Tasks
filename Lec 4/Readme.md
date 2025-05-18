@@ -39,26 +39,26 @@ If the file does not exist:
 Error: The file 'sample.txt' was not found
 
 
+Task 2 Explanation
 
-
-🖊️ Task 2: Write and Append Data to a File
+## 🔧 Task 2: Write and Append Data to a File
 📁 Filename: assign_4_b.py
 
-✅ Objective:
+### ✅ Objective:
 1.Take user input and write it to a file named output.txt.
 
 2.Take additional input and append it to the same file.
 
 3.Finally, read and display the complete content of the file.
 
-🧠 Logic:
+###🧠 Logic:
 1.Uses input() function to capture user input.
 
 2.Uses write mode ('w') to write data and append mode ('a') to add more content.
 
 3.Reads the file again to show the final output.
 
-📜 Code:
+###📜 Code:
 # assign_4_b.py
 
 # Step 1: Write to the file

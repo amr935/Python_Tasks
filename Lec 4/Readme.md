@@ -29,36 +29,39 @@ try:
             print(line.strip())
 except FileNotFoundError:
     print("Error: The file 'sample.txt' was not found")
-📌 Example Output:
+```
+
+### 📌 Example Output:
 If the file exists:
+```
 This is a sample text file.
 It contains multiple lines.
-
+```
 
 If the file does not exist:
+```
 Error: The file 'sample.txt' was not found
+```
 
-
-'''Task 2 Explanation
+---
 
 ## 🔧 Task 2: Write and Append Data to a File
-📁 Filename: assign_4_b.py
+
+📁 **Filename:** `assign_4_b.py`
 
 ### ✅ Objective:
-1.Take user input and write it to a file named output.txt.
+1. Take user input and write it to a file named `output.txt`.
+2. Take additional input and append it to the same file.
+3. Finally, read and display the complete content of the file.
 
-2.Take additional input and append it to the same file.
+### 🧠 Logic:
+- Uses `input()` function to capture user input.
+- Uses write mode (`'w'`) to write data and append mode (`'a'`) to add more content.
+- Reads the file again to show the final output.
 
-3.Finally, read and display the complete content of the file.
+### 📜 Code:
 
-###🧠 Logic:
-1.Uses input() function to capture user input.
-
-2.Uses write mode ('w') to write data and append mode ('a') to add more content.
-
-3.Reads the file again to show the final output.
-'''
-###📜 Code:
+```python
 # assign_4_b.py
 
 # Step 1: Write to the file
@@ -78,10 +81,10 @@ print("Final content of output.txt:")
 with open("output.txt", "r") as file:
     for line in file:
         print(line.strip())
+```
 
-'''
-📌 Example Output:
-
+### 📌 Example Output:
+```
 Enter text to write to the file: Hello, Python!
 Data successfully written to output.txt.
 Enter additional text to append: Learning file handling in python.
@@ -89,7 +92,7 @@ Data successfully appended.
 Final content of output.txt:
 Hello, Python!
 Learning file handling in python.
-
+```
 
 ---
 
@@ -100,23 +103,34 @@ Make sure you have Python installed (version 3.x). Run the files using:
 ```bash
 python assign_4_a.py
 python assign_4_b.py
+```
 
+---
 
-📚 Topics Covered
-File I/O in Python
+## 📄 Files in the Repository
 
-Exception Handling (try-except)
+| File Name       | Description                                |
+|----------------|--------------------------------------------|
+| `assign_4_a.py` | Handles reading from a file with error checks |
+| `assign_4_b.py` | Demonstrates writing, appending, and reading a file |
 
-User Input
+---
 
-File Reading/Writing/Appending
+## 📚 Topics Covered
 
-🌟 Author
-   amr935
+- File I/O in Python
+- Exception Handling (`try-except`)
+- User Input
+- File Reading/Writing/Appending
 
-📬 Feedback
+---
+
+## 🌟 Author
+
+**amr935**
+
+---
+
+## 📬 Feedback
+
 If you find this helpful or have any suggestions, feel free to open an issue or pull request. Contributions are welcome!
-Let me know if you want to include a demo image, badges, or link this to your actual GitHub repo.
-
-'''
-

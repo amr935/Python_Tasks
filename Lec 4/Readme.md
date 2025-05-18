@@ -39,7 +39,7 @@ If the file does not exist:
 Error: The file 'sample.txt' was not found
 
 
-Task 2 Explanation
+'''Task 2 Explanation
 
 ## 🔧 Task 2: Write and Append Data to a File
 📁 Filename: assign_4_b.py
@@ -57,7 +57,7 @@ Task 2 Explanation
 2.Uses write mode ('w') to write data and append mode ('a') to add more content.
 
 3.Reads the file again to show the final output.
-
+'''
 ###📜 Code:
 # assign_4_b.py
 
@@ -79,7 +79,7 @@ with open("output.txt", "r") as file:
     for line in file:
         print(line.strip())
 
-
+'''
 📌 Example Output:
 
 Enter text to write to the file: Hello, Python!
@@ -118,5 +118,5 @@ File Reading/Writing/Appending
 If you find this helpful or have any suggestions, feel free to open an issue or pull request. Contributions are welcome!
 Let me know if you want to include a demo image, badges, or link this to your actual GitHub repo.
 
-
+'''
 

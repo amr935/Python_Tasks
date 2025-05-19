@@ -23,12 +23,19 @@ This repository contains two Python programs that demonstrate basic file handlin
 ```python
 # assign_4_a.py
 
+file_2=open('sample.txt','r')
+reading_file=file_2.read()
+print(reading_file)
+file_2.close()
+#Let sample1.txe file does not exit, for this the error handling would be like:
 try:
-    with open("sample.txt", "r") as file:
-        for line in file:
-            print(line.strip())
+    file_2 = open('sample1.txt', 'r')
+    reading_file = file_2.read()
+    print(reading_file)
+    file_2.close()
 except FileNotFoundError:
-    print("Error: The file 'sample.txt' was not found")
+    print("Error:The file 'sample1.txt' was not found")
+
 ```
 
 ### 📌 Example Output:
@@ -64,23 +71,29 @@ Error: The file 'sample.txt' was not found
 ```python
 # assign_4_b.py
 
-# Step 1: Write to the file
-text = input("Enter text to write to the file: ")
-with open("output.txt", "w") as file:
-    file.write(text + "\n")
-print("Data successfully written to output.txt.")
+a=input("Enter text to write to the file:")
 
-# Step 2: Append to the file
-append_text = input("Enter additional text to append: ")
-with open("output.txt", "a") as file:
-    file.write(append_text + "\n")
-print("Data successfully appended.")
+file_3=open('output.txt','w')
+writing_file=file_3.write(a)
+file_3.close()
 
-# Step 3: Read and display the content
-print("Final content of output.txt:")
-with open("output.txt", "r") as file:
-    for line in file:
-        print(line.strip())
+print('Data successfully written to output.txt.')
+
+b=input("Enter additional text to append:")
+
+file_3=open('output.txt','a')
+appending_file=file_3.write('\n'+b)
+file_3.close()
+
+print('Data successfully appended.')
+
+
+print('Final content of output.txt:')
+
+file_3=open('output.txt','r')
+appending_file=file_3.read()
+print(appending_file)
+file_3.close()
 ```
 
 ### 📌 Example Output:
